@@ -1,0 +1,28 @@
+name: meutema
+type: theme
+description: meutema
+package: meutema
+core: 8.x
+libraries:
+  - meutema/global-styling
+base theme: jethro
+
+regions:
+    header: 'Header'
+    page_title: 'Page Title'
+    banner_bottom_first: 'Banner First'
+    banner_bottom_second: 'Banner Bottom second'
+    banner_bottom_third: 'Banner Bottom Third'
+    highlighted: 'Highlighted'
+    breadcrumb: 'Breadcrumb'
+    content: 'content'
+    sidebar_first: 'Right Sidebar'
+    sidebar_second: 'Left Sidebar'
+    content_highlighted: 'Content Highlighted'
+    page_bottom_highlighted: 'Page Bottom Highlighted'
+    footer_top: 'Footer Top'
+    footer_first: 'Footer First'
+    footer_second: 'Footer Second'
+    footer_third: 'Fooder Third'
+    footer_bottom: 'Footer Bottom'
+

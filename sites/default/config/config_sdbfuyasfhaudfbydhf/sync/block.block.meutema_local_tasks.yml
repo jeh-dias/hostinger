@@ -1,0 +1,22 @@
+uuid: a6d701d3-d3e2-4228-8df4-26b761ecf675
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - meutema
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: meutema_local_tasks
+theme: meutema
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Abas
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,12 @@
+uuid: 54f1e81a-0e14-4d33-9636-06e99ad7a4e6
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: flXhTcp55yLcyy7ZLOhPGKGZobZQJdkAFVWV3LseiuI
+id: user.register
+label: Registrar
+targetEntityType: user
+cache: true

@@ -1,0 +1,18 @@
+uuid: 68d9e449-298b-4bea-9e04-e46e370d82cf
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Layouts
+type: layouts
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,26 @@
+uuid: 396f9c9f-1472-416f-9cc1-203bc4e292bf
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - jethro
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
+id: jethro_tools
+theme: jethro
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Ferramentas
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

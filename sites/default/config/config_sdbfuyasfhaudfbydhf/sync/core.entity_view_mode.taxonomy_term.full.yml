@@ -1,0 +1,12 @@
+uuid: f2024a1f-79c6-4f25-8fbc-8b010097ef33
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: '-PPKjsNQPvoIDjOuUAvlLocYD976MNjb9Zpgyz5_BWE'
+id: taxonomy_term.full
+label: 'Página de termo de taxonomia'
+targetEntityType: taxonomy_term
+cache: true

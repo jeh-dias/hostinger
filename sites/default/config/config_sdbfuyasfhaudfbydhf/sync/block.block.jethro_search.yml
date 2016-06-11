@@ -1,0 +1,22 @@
+uuid: 23b2fd33-cae1-42bd-89d4-e91614fe2289
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - jethro
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: jethro_search
+theme: jethro
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Buscar
+  provider: search
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,12 @@
+uuid: d6148b05-3dcc-4505-9f3b-53010ffb0dd7
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Feedback do site'
+recipients:
+  - juliachavess@gmail.com
+reply: ''
+weight: 0

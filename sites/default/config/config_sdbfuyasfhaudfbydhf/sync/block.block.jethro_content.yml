@@ -1,0 +1,22 @@
+uuid: 77eab959-ddb9-421a-ad71-d71da3dd8c89
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jethro
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: jethro_content
+theme: jethro
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Conteúdo da página principal'
+  provider: system
+  label_display: '0'
+visibility: {  }

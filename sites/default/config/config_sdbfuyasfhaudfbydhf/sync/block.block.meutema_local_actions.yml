@@ -1,0 +1,20 @@
+uuid: b3fec25b-b7e0-4161-bb35-ae100a92da74
+langcode: pt-br
+status: false
+dependencies:
+  theme:
+    - meutema
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: meutema_local_actions
+theme: meutema
+region: '-1'
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

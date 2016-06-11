@@ -1,0 +1,11 @@
+uuid: c5fa4011-8691-4127-b331-4c6662139a42
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.layouts
+id: node.layouts
+target_entity_type_id: node
+target_bundle: layouts
+default_langcode: site_default
+language_alterable: false

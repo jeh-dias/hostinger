@@ -1,0 +1,51 @@
+//@mixin respond-to($media) {
+//  @if $media == 'xs' {
+//    @media only screen and (min-width: $screen-xs-min) and (max-width: $screen-xs-max) {
+//      @content;
+//    }
+//  } @else if $media == 'sm' {
+//    @media only screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+//      @content;
+//    }
+//  } @else if $media == 'sm-md' {
+//    @media only screen and (min-width: $screen-sm-min) and (max-width: $screen-md-max) {
+//      @content;
+//    }
+//  } @else if $media == 'md' {
+//    @media only screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+//      @content;
+//    }
+//  } @else if $media == 'lg' {
+//    @media only screen and (min-width: $screen-lg-min) {
+//      @content;
+//    }
+//  } @else if $media == 'less-xs' {
+//    @media only screen and (max-width: $screen-xs-min) {
+//      @content;
+//    }
+//  } @else if $media == 'less-sm' {
+//    @media only screen and (max-width: $screen-xs-max) {
+//      @content;
+//    }
+//  } @else if $media == 'less-md' {
+//    @media only screen and (max-width: $screen-sm-max) {
+//      @content;
+//    }
+//  } @else if $media == 'less-lg' {
+//    @media only screen and (max-width: $screen-md-max) {
+//      @content;
+//    }
+//  } @else if $media == 'xs-plus' {
+//    @media only screen and (min-width: $screen-xs-min) {
+//      @content;
+//    }
+//  } @else if $media == 'sm-plus' {
+//    @media only screen and (min-width: $screen-sm-min) {
+//      @content;
+//    }
+//  } @else if $media == 'md-plus' {
+//    @media only screen and (min-width: $screen-md-min) {
+//      @content;
+//    }
+//  }
+//}

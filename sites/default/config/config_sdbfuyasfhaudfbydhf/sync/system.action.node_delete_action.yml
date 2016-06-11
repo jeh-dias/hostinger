@@ -1,0 +1,13 @@
+uuid: 3f52fb8d-a689-4b00-9f73-b47cfdf42d53
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: Zx0jD1Klh5tZaGJy8uOeR_2MCu9FDM4xg7TaUJUEbkI
+id: node_delete_action
+label: 'Apagar conteúdo'
+type: node
+plugin: node_delete_action
+configuration: {  }

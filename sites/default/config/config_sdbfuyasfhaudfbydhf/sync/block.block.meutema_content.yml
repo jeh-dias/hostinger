@@ -1,0 +1,22 @@
+uuid: 2959efdb-5e87-466a-91df-f757d146b13c
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - meutema
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: meutema_content
+theme: meutema
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'modelos de layout'
+  provider: system
+  label_display: '0'
+visibility: {  }

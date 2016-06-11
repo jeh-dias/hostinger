@@ -1,0 +1,27 @@
+uuid: 1f66a718-5de0-48ec-a3cb-2c1a9bc598c2
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.layouts.field_imagem
+    - node.type.layouts
+  module:
+    - image
+    - user
+id: node.layouts.full
+targetEntityType: node
+bundle: layouts
+mode: full
+content:
+  field_imagem:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  langcode: true
+  links: true

@@ -1,0 +1,22 @@
+uuid: f34058b2-f2f4-46f4-8b0e-c6cb02d1d05f
+langcode: pt-br
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - meutema
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: meutema_messages
+theme: meutema
+region: '-1'
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensagens de status'
+  provider: system
+  label_display: '0'
+visibility: {  }

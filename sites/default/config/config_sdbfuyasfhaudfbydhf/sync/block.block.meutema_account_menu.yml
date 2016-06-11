@@ -1,0 +1,26 @@
+uuid: a7675317-9961-4baa-9931-bf4dc2adaa13
+langcode: pt-br
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - meutema
+_core:
+  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
+id: meutema_account_menu
+theme: meutema
+region: '-1'
+weight: -1
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

@@ -1,0 +1,23 @@
+{
+  "name": "meutema",
+  "private": true,
+  "devDependencies": {
+    "bootstrap-sass": "~3.2.0"
+  },
+  "authors": [
+    "Julia Chaves"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/lib",
+    "test",
+    "tests"
+  ]
+}

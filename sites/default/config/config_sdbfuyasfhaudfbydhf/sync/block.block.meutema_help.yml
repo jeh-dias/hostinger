@@ -1,0 +1,22 @@
+uuid: 16405a80-b9db-479b-ac6e-eb52ca21694d
+langcode: pt-br
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - meutema
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: meutema_help
+theme: meutema
+region: '-1'
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ajuda
+  provider: help
+  label_display: '0'
+visibility: {  }

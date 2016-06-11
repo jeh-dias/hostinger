@@ -1,0 +1,15 @@
+uuid: 8b9a40d3-4a79-4f1a-8a14-8502c1121ab1
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 97tvtzGOa8_flb22CzSjgtm_YkiGMHvEBO-6q2K9V_U
+id: node_search
+label: Conteúdo
+path: node
+weight: -10
+plugin: node_search
+configuration:
+  rankings: {  }

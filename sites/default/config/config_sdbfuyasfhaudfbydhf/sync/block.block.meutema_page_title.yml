@@ -1,0 +1,20 @@
+uuid: 82ff718a-5aee-4c53-af6c-eb44b9ac1b1c
+langcode: pt-br
+status: false
+dependencies:
+  theme:
+    - meutema
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: meutema_page_title
+theme: meutema
+region: '-1'
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título da página'
+  provider: core
+  label_display: '0'
+visibility: {  }

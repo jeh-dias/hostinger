@@ -1,0 +1,26 @@
+uuid: bcbf6943-e1d7-4321-aa38-95044f1c43a5
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.layouts.field_imagem
+    - node.type.layouts
+  module:
+    - image
+    - user
+id: node.layouts.default
+targetEntityType: node
+bundle: layouts
+mode: default
+content:
+  field_imagem:
+    weight: 101
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  langcode: true
+  links: true

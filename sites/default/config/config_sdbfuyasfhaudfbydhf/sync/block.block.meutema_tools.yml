@@ -1,0 +1,26 @@
+uuid: e64e95c5-8243-4261-8a9b-e2075cf0ec78
+langcode: pt-br
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - meutema
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
+id: meutema_tools
+theme: meutema
+region: '-1'
+weight: -6
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Ferramentas
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

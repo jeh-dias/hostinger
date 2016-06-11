@@ -1,0 +1,25 @@
+uuid: 7956a6b3-b6ce-4bae-b6ce-51fcd334bf39
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - meutema
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: meutema_branding
+theme: meutema
+region: header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

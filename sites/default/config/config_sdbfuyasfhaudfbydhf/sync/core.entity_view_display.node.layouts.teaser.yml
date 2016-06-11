@@ -1,0 +1,20 @@
+uuid: 33fc6c21-5df7-41ec-b204-bbe134c1ed0c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.layouts.field_imagem
+    - node.type.layouts
+  module:
+    - user
+id: node.layouts.teaser
+targetEntityType: node
+bundle: layouts
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_imagem: true
+  langcode: true

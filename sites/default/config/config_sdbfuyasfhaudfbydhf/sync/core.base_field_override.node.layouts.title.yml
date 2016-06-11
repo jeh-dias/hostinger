@@ -1,0 +1,18 @@
+uuid: 7443585c-2df4-4dec-97a7-a3f27f068947
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.layouts
+id: node.layouts.title
+field_name: title
+entity_type: node
+bundle: layouts
+label: tilulo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
